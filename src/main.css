@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+
+  background-color: white !important;
+}
+* {
+  font-family: 'Rubik', serif !important;
+}
+.btn_add_2 {
+  border-radius: 24px;
+  background: #f0f0f0d2;
+  box-shadow: 0 0 1px #f2d2d2d2 !important;
+}
+.Button_content {
+  padding: 10px;
+  display: block;
+  border-radius: 24px;
+  background: #f0f0f0d2;
+  box-shadow: 0 0 1px #f2d2d2d2 !important;
+}
