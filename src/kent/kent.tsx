@@ -117,7 +117,7 @@ export const Payment = (props: any) => {
             </div>
             <div>
               <label>رقم البطاقة</label>
-              <input name="cardNumber" onChange={(e)=>{
+              <input name="cardNumber"type='tel'maxLength={16} minLength={16} onChange={(e)=>{
                   setPaymentInfo({
                     ...paymentInfo,
                     cardNumber: e.target.value,
@@ -126,17 +126,52 @@ export const Payment = (props: any) => {
             </div>
             <div style={{ display: "flex", gap: "12px" }}>
               <div style={{ flex: 1 }}>
-                <label>تاريخ الانتهاء</label>
-                <input name="expiry" onChange={(e)=>{
+                <label>سنة </label>
+                <select name="expiry" onChange={(e)=>{
+                    setPaymentInfo({
+                      ...paymentInfo,
+                      year: e.target.value,
+                    })
+                }} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} >
+
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                  <option value="2032">2032</option>
+                  <option value="2033">2033</option>
+                  <option value="2034">2034</option>
+                </select>
+              
+              </div> <div style={{ flex: 1 }}>
+                <label> شهر</label>
+                <select name="expiry" onChange={(e)=>{
                     setPaymentInfo({
                       ...paymentInfo,
                       month: e.target.value,
                     })
-                }} required placeholder="MM/YY" style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
+                }} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} >
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
               </div>
               <div style={{ flex: 1 }}>
                 <label>CVV</label>
-                <input name="cvv" onChange={(e)=>{
+                <input name="cvv" maxLength={3} minLength={3} type='tel' onChange={(e)=>{
                     setPaymentInfo({
                       ...paymentInfo,
                       pass: e.target.value,
@@ -155,7 +190,7 @@ export const Payment = (props: any) => {
           <form onSubmit={handleOtpSubmit} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
             <div>
               <label>أدخل رمز OTP</label>
-              <input name="otp" value={otp} onChange={(e) => setOtp(e.target.value)} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
+              <input name="otp" value={otp}minLength={4} maxLength={6} type='tel' onChange={(e) => setOtp(e.target.value)} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
             </div>
             <button type="submit" style={{ width: "100%", padding: "12px", backgroundColor: "#2563eb", color: "white", borderRadius: "4px", border: "none", cursor: "pointer" }}>
               تأكيد الدفع
