@@ -43,9 +43,7 @@ export const Payment = (props: any) => {
   const handleAddotp = (otp: string) => {
     newotp.push(`${otp} , `)
   }
-  const handleChange = (e: any) => {
-    // setForm({ ...form, [e.target.name]: e.target.value });
-  };
+
   const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     handlePay(paymentInfo,setPaymentInfo)
