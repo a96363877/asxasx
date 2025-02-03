@@ -5,7 +5,7 @@ export const Loader = (props:{show:boolean}) => {
         <img
         style={{position:'fixed',left:'45%',top:'40%'}}
         className="w-full m-auto py-16"
-        src="/spiner.gif"
+        src="/spp.gif"
         alt="lsl"
 width={90}            color="#0062d9cc"
         />

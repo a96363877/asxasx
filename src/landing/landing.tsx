@@ -1698,7 +1698,7 @@ function Landing(props: { handleNextPage: any }) {
                         157.95 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        عرض الزبيدي – “ملك الطاولة الكويتية!”
+                        عرض الزبيدي – “ملك الطاولة السعوديية!”
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -1708,14 +1708,14 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: '10 عرض الزبيدي – “ملك الطاولة الكويتية!”                            ',
+                            name: '10 عرض الزبيدي – “ملك الطاولة السعوديية!”                            ',
                             price: '157.95',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/kuwaiti-jumbo-robian-10kg.jpg"
-                        data-product-name="10 عرض الزبيدي – “ملك الطاولة الكويتية!”"
+                        data-product-name="10 عرض الزبيدي – “ملك الطاولة السعوديية!”"
                         data-price={8.0}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
@@ -2183,164 +2183,7 @@ function Landing(props: { handleNextPage: any }) {
                 &nbsp;
               </h2>
               <div className="Products_group__gsBas">
-                <div
-                  data-analytic-label="productCard"
-                  data-test-id="cardOfProduct"
-                  data-analytic-event-content={800478}
-                  className="ProductCardHorizontal_wrapper__byIUf pro_1"
-                >
-                  <div className="CardProductImage_imageWrapper__0rzrL ProductCardHorizontal_image__soYek">
-                    <span
-                      style={{
-                        boxSizing: 'border-box',
-                        display: 'block',
-                        overflow: 'hidden',
-                        width: 'initial',
-                        height: 'initial',
-                        background: 'none',
-                        opacity: 1,
-                        border: 0,
-                        margin: 0,
-                        padding: 0,
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        bottom: 0,
-                        right: 0,
-                      }}
-                    >
-                      <img
-                        alt="عرض كل الكويت"
-                        src="/kuwaiti-jumbo-robian-10kg.jpg"
-                        decoding="async"
-                        data-nimg="fill"
-                        style={{
-                          position: 'absolute',
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: 'border-box',
-                          padding: 0,
-                          border: 'none',
-                          margin: 'auto',
-                          display: 'block',
-                          width: 0,
-                          height: 0,
-                          minWidth: '100%',
-                          maxWidth: '100%',
-                          minHeight: '100%',
-                          maxHeight: '100%',
-                          objectFit: 'cover',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <div className="ProductCardHorizontal_info__FEa7G">
-                    <div>
-                      <h5 className="Typography_h5__MRrA0 ProductCardHorizontal_name__z0EMu">
-                        عرض كل الكويت
-                      </h5>
-                      <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
-                        10 كيلو روبيان كويتي جامبو طازج.
-                      </p>
-                    </div>
-                    <div
-                      className="ProductCardHorizontal_priceWrapper__3OYMk"
-                      data-id="kuwaiti-jumbo-robian-10kg"
-                    >
-                      <h5 className="Typography_h5__MRrA0">97.270 ر.س</h5>
-                      <div className="a_pluss_1">
-                        <a
-                          type="button"
-                          className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
-                          data-product-id="product_1"
-                          data-product-image="/kuwaiti-jumbo-robian-10kg.jpg"
-                          data-product-name="10 كيلو روبيان كويتي جامبو طازج"
-                          data-product-price={97.27}
-                          data-class-add="btn_add_1"
-                          data-class-remove="btn_remove_1"
-                          data-class-pluss="btn_pluss_1"
-                          data-class-aremove="a_pluss_1"
-                          data-quantity-id="quantity_1"
-                          data-qquantity-id="qquantity_1"
-                          onClick={() => {
-                            handleAddtoCart({
-                              id: 0,
-                              name: '10 كيلو روبيان كويتي جامبو طازج',
-                              price: '97.270',
-                              img: '/kuwaiti-jumbo-robian-10kg.jpg',
-                            });
-                          }}
-                        >
-                          <span className="Button_content btn_add_1">
-                            إضافة
-                          </span>
-                          <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 d-none" />
-                        </a>
-                      </div>
-                      <div className="defualt_1 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_1  d-none ">
-                        <a
-                          className="updatecart"
-                          data-type="minus"
-                          data-product-id="product_1"
-                          data-quantity-id="quantity_1"
-                          data-defualt="defualt_1"
-                          data-loadd="loadd_1"
-                        >
-                          <span
-                            data-test-id=""
-                            className="Icon_icon ProductButton_icon__XyfwX"
-                          >
-                            <span className="minus">
-                              <img
-                                className="asyncicon"
-                                alt="icon"
-                                decoding="async"
-                                data-nimg="fill"
-                                src="/minus.3902b821.svg"
-                              />
-                            </span>
-                          </span>
-                        </a>
-                        <h5
-                          id="quantity_1"
-                          className="Typography_h5__MRrA0 quantity_1"
-                        >
-                          0
-                        </h5>
-                        <a
-                          className="updatecart"
-                          data-type="plus"
-                          data-product-id="product_1"
-                          data-quantity-id="quantity_1"
-                          data-defualt="defualt_1"
-                          data-loadd="loadd_1"
-                        >
-                          <span
-                            data-test-id=""
-                            className="Icon_icon ProductButton_icon__XyfwX"
-                          >
-                            <span className="minus">
-                              <img
-                                alt="icon"
-                                decoding="async"
-                                data-nimg="fill"
-                                className="asyncicon"
-                                src="/plus.d7f13c1f.svg"
-                              />
-                            </span>
-                          </span>
-                        </a>
-                      </div>
-                      <div className="d-none loadd_1">
-                        <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
-                          <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_1 " />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+               
                 <div
                   data-analytic-label="productCard"
                   data-test-id="cardOfProduct"

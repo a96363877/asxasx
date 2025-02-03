@@ -8,6 +8,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
     props.handleNextPage();
   };
   const [isCheked, setIsChecked] = useState('payfull');
+  const [isSelecedted, setIsSelected] = useState(false);
 
   return (
     <>
@@ -202,6 +203,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
               <div
                 className="MarketplaceCardPayment_topContent__K5bEQ"
                 style={{ marginTop: '10px' }}
+
               >
                 <h3 className="Typography_h3__HPYxa">طريقة الدفع</h3>
                 <div
@@ -209,41 +211,47 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                   data-test-id="choosePayMethodBtn"
                   className="PaymentMethods_paymentMethod__7SC8Y"
                   style={{ background: '#f2f2f2' }}
+                onClick={()=>setIsSelected(true)}
+
                 >
                   <span
                     data-test-id=""
                     className="Icon_icon PaymentMethods_icon__m0OGl"
                   >
-                    <span className="minus">
+                    <div style={{display:'flex'}}>
                       <img
                         alt="icon"
-                        src="/knet.png"
+                        src="/visa.svg"
                         decoding="async"
                         data-nimg="fill"
-                        style={{ width: 32, height: 32 }}
+                        style={{ width: 40, height:40,marginLeft:10 }}
                         className="asyncicon"
-                      />
-                      <noscript />
-                    </span>
+                      /> <img
+                      alt="icon"
+                      src="/mass.svg"
+                      decoding="async"
+                      data-nimg="fill"
+                      style={{ width: 40, height:40,marginLeft:10 }}
+                      className="asyncicon"
+                    /><img
+                    alt="icon"
+                    src="/mada.svg"
+                    decoding="async"
+                    data-nimg="fill"
+                    style={{ width: 40, height:40,marginLeft:10 }}
+                    className="asyncicon"
+                  />
+                    </div>
                   </span>
                   <p className="Typography_p3__dH_h7 PaymentMethods_label__7E6O1">
-                    بطاقة السحب الآلي
                   </p>
                   <span
                     data-test-id=""
                     className="Icon_icon PaymentMethods_rightIcon__Y_bPY"
                     style={{ width: 16, height: 16 }}
                   >
-                    <span className="minus">
-                      <img
-                        alt="icon"
-                        src="/arrow_right.5c2803a9.svg"
-                        decoding="async"
-                        data-nimg="fill"
-                        className="asyncicon"
-                      />
-                      <noscript />
-                    </span>
+<input type="checkbox" checked={isSelecedted} />                    
+
                   </span>
                 </div>
                 <div className="OrderInfo_wrapper__GCgIK">
@@ -311,7 +319,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                           className="Typography_p6__xuxGw CardAddress_address__tGiBR"
                           style={{ fontSize: 13 }}
                         >
-                          سدد اجمالي قيمة الطلب الآن وادفع من خلال كي-نت واحصل
+                          سدد اجمالي قيمة الطلب الآن وادفع من خلال بطاقتك واحصل
                           على توصيل مجاني
                         </p>
                       </div>
@@ -351,14 +359,14 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                           className="Typography_p5   CardAddress_label__cYODn"
                           style={{ fontSize: 17, marginBottom: 10 }}
                         >
-                          دفع مبلغ 0.5 ر.س فقط لتأكيد طلبك
+                          دفع مبلغ 50 ر.س فقط لتأكيد طلبك
                         </p>
                         <p
                           className="Typography_p6__xuxGw CardAddress_address__tGiBR"
                           style={{ fontSize: 13 }}
                         >
                           يخصم من قيمة الطلب وادفع الباقي عند الاستلام مع دفع
-                          مصاريف توصيل بقيمة 1 ر.س
+                          مصاريف توصيل بقيمة 50 ر.س
                         </p>
                       </div>
                     </label>
@@ -393,7 +401,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                       data-test-id="checkout-pay-with-products-total-price"
                       className="Typography_h3__HPYxa"
                     >
-                      {isCheked === 'payfull' ? total : 0.5} ر.س
+                      {isCheked === 'payfull' ? total : 50} ر.س
                     </h3>
                   </div>
                 </div>
@@ -403,7 +411,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                 >
                   <span className="Button_content">
                     متابعة الدفع
-                    <p>( {isCheked === 'payfull' ? total : 0.5}ر.س)</p>
+                    <p>( {isCheked === 'payfull' ? total : 50} ر.س)</p>
                   </span>
                 </button>
               </div>
