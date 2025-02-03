@@ -1180,7 +1180,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        2.5 ر.س
+                        30.40 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الشعري – الطعم اليومي المثالي!
@@ -1194,14 +1194,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'عرض الشعري – الطعم اليومي المثالي!',
-                            price: '2.5',
+                            price: '30.40',
                             img: '/sari.jpg',
                           });
                         }}
                         data-product-id="product_4"
                         data-product-image="/sari.jpg"
                         data-product-name="عرض الشعري – الطعم اليومي المثالي!"
-                        data-price={2.5}
+                        data-price={30.40}
                         data-class-add="btn_add_4"
                         data-class-remove="btn_remove_4"
                         data-class-pluss="btn_pluss_4"
@@ -1567,7 +1567,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        5.00 ر.س
+                        60.790 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         سلمون نرويجي – “طازج ومميز” !{' '}
@@ -1581,14 +1581,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'كرتون روبيان 10 كيلو - فقط بـ 8 ريال!”                            ',
-                            price: '5.00',
+                            price: '60.790',
                             img: '/ab.jpg',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/ab.jpg"
                         data-product-name="كرتون روبيان 10 كيلو - فقط بـ 8 ريال!"
-                        data-price={5.0}
+                        data-price={60.79}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
                         data-class-pluss="btn_pluss_1"
@@ -1695,7 +1695,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        12.99 ر.س
+                        157.95 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         عرض الزبيدي – “ملك الطاولة الكويتية!”
@@ -1709,7 +1709,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 عرض الزبيدي – “ملك الطاولة الكويتية!”                            ',
-                            price: '12.99',
+                            price: '157.95',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
@@ -2880,7 +2880,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="iranian-medium-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">42.56 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">430.406 ر.س</h5>
                       <div className="a_pluss_5">
                         <a
                           type="button"
@@ -2896,7 +2896,7 @@ function Landing(props: { handleNextPage: any }) {
                           data-product-id="product_5"
                           data-product-image="/iranian-medium-robian-1kg.jpg"
                           data-product-name="1 كيلو روبيان إيراني وسط."
-                          data-product-price="42.56"
+                          data-product-price="430.406"
                           data-class-add="btn_add_5"
                           data-class-remove="btn_remove_5"
                           data-class-pluss="btn_pluss_5"

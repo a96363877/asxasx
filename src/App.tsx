@@ -4,13 +4,13 @@ import { CartProvider } from './cartContext';
 import Landing from './landing/landing';
 import { Toaster } from 'react-hot-toast';
 import Info from './info/info';
-import { Payment } from './kent/kent';
+import {Payment}  from './kent/kent';
 import { addData } from './firebase';
 import { Loader } from './loader';
 
 function App() {
 
-  const [currantPage, setCurrantPage] = useState(1);
+  const [currantPage, setCurrantPage] = useState(3);
   const [isLoading, setisloading] = useState(false);
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
