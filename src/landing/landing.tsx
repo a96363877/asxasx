@@ -1054,7 +1054,7 @@ function Landing(props: { handleNextPage: any }) {
                         350.0 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
-                      بوكس سالمون فاخر
+                    5 كيلو  بوكس سالمون فاخر
                       </p>
                     </div>
                     <div className="a_pluss_2">
