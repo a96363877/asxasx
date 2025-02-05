@@ -1051,7 +1051,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        350.0 ر.س
+                        220.99 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         5 كيلو  بوكس سالمون فاخر
@@ -1065,7 +1065,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 1,
                             name: 'عرض الروبيان – لذّة لا تُقاوم!',
-                            price: '350.0',
+                            price: '220.99',
                             img: '/shrimp_offer.jpg',
                           });
                         }}
@@ -2377,7 +2377,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass-800-1000"
                     >
-                      <h5 className="Typography_h5__MRrA0">450.18 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">250.18  ر.س</h5>
                       <div className="a_pluss_2">
                         <a
                           type="button"
@@ -2693,7 +2693,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass"
                     >
-                      <h5 className="Typography_h5__MRrA0">389.0900 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">189.09ر.س</h5>
                       <div className="a_pluss_4">
                         <a
                           type="button"
@@ -3309,7 +3309,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="large-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">454.72 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">154.72 ر.س</h5>
                       <div className="a_pluss_6">
                         <a
                           type="button"
@@ -3324,7 +3324,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 كيلو  فيليه هامور ',
-                              price: '454.72',
+                              price: '154.72',
                               img: '/pr-2.png',
                             });
                           }}
