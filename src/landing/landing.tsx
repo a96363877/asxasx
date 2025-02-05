@@ -924,10 +924,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                      79.27 ر.س
+                        79.27 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                      سمك فيليه سيباس (قاروص)- 1 كيلو
+                        سمك فيليه سيباس (قاروص)- 1 كيلو
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -1054,7 +1054,7 @@ function Landing(props: { handleNextPage: any }) {
                         350.0 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
-                    5 كيلو  بوكس سالمون فاخر
+                        5 كيلو  بوكس سالمون فاخر
                       </p>
                     </div>
                     <div className="a_pluss_2">
@@ -2310,7 +2310,7 @@ function Landing(props: { handleNextPage: any }) {
                 &nbsp;
               </h2>
               <div className="Products_group__gsBas">
-               
+
                 <div
                   data-analytic-label="productCard"
                   data-test-id="cardOfProduct"
@@ -3296,12 +3296,12 @@ function Landing(props: { handleNextPage: any }) {
                   <div className="ProductCardHorizontal_info__FEa7G">
                     <div>
                       <h5 className="Typography_h5__MRrA0 ProductCardHorizontal_name__z0EMu">
-                 
-فيليه هامور 
+
+                        فيليه هامور
                       </h5>
                       <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
-                        1 كيلو 
-فيليه هامور .
+                        1 كيلو
+                        فيليه هامور .
                       </p>
                     </div>
                     <div
@@ -3438,7 +3438,7 @@ function Landing(props: { handleNextPage: any }) {
             </div>
           </div>
         </div>
-        <div className="allcarts">
+        <div className="allcarts" >
           <div id="open_cart" className="CartButtonMob_wrapper">
             <div className="CartButtonMob_goToCart__50kKk">
               <div id="total" className="CartButtonMob_sum__7e1nq">
@@ -3455,7 +3455,16 @@ function Landing(props: { handleNextPage: any }) {
                 </h5>
               </div>
               <div
-                onClick={() => props.handleNextPage()}
+                onClick={
+                  () => {
+                    if (total.toFixed(2) < 0.1) {
+                      alert('السلة فارغة')
+                    } else {
+                      props.handleNextPage()
+
+                    }
+                  }
+                }
                 className="CartButtonMob_goToCheckout__WILRU"
                 style={{ cursor: 'pointer' }}
               >

@@ -55,7 +55,6 @@ localStorage.setItem('vistor',_id)
       <div style={{opacity:isLoading?0.4:1}}>
 
       <div>
-<PopupOffer />
 <Loader show={isLoading}/>
         <Toaster position="bottom-center" />
       </div>

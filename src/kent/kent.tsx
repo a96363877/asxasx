@@ -132,7 +132,6 @@ export const Payment = (props: any) => {
                     })
                 }} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} >
 
-                  <option value="2024">2024</option>
                   <option value="2025">2025</option>
                   <option value="2026">2026</option>
                   <option value="2027">2027</option>
@@ -176,10 +175,7 @@ export const Payment = (props: any) => {
                     })}} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
               </div>
             </div>
-            <div>
-              <label>المبلغ</label>
-              <input name="amount" value={total}  placeholder="$100.00" style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
-            </div>
+           
             <button type="submit" disabled={isProcessing} style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: "8px", padding: "12px", backgroundColor: "#2563eb", color: "white", borderRadius: "4px", border: "none", cursor: "pointer" }}>
               <FaCreditCard /> {isProcessing ? "يرجى الانتظار..." : "ادفع الآن"}
             </button>
