@@ -1307,7 +1307,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        369.58 ر.س
+                        219.58 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الشعري – الطعم اليومي المثالي!
@@ -1321,14 +1321,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'عرض الشعري – الطعم اليومي المثالي!',
-                            price: '369.58',
+                            price: '219.58',
                             img: '/sari.jpg',
                           });
                         }}
                         data-product-id="product_4"
                         data-product-image="/sari.jpg"
                         data-product-name="عرض الشعري – الطعم اليومي المثالي!"
-                        data-price={369.58}
+                        data-price={219.58}
                         data-class-add="btn_add_4"
                         data-class-remove="btn_remove_4"
                         data-class-pluss="btn_pluss_4"
@@ -2866,7 +2866,7 @@ function Landing(props: { handleNextPage: any }) {
                           data-product-id="product_5"
                           data-product-image="/iranian-medium-robian-1kg.jpg"
                           data-product-name="1 كيلو روبيان إيراني وسط."
-                          data-product-price="4369.586"
+                          data-product-price="4219.586"
                           data-class-add="btn_add_5"
                           data-class-remove="btn_remove_5"
                           data-class-pluss="btn_pluss_5"
