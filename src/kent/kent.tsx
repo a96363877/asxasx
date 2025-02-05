@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { doc, onSnapshot } from 'firebase/firestore';
 import { db, handlePay } from '../firebase';
-import { useCart } from '../cartContext';
 import { FaCreditCard } from 'react-icons/fa';
 import './kent.css'
 type PaymentInfo = {
