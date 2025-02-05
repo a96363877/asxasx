@@ -479,7 +479,7 @@ function Landing(props: { handleNextPage: any }) {
                       <div className="FoodSubCategoryCard_imageWrapper  ">
                         <span className="minus">
                           <img
-                            src="/1.png"
+                            src="/top4.png"
                             decoding="async"
                             data-nimg="fill"
                             style={{
@@ -495,7 +495,7 @@ function Landing(props: { handleNextPage: any }) {
                               minWidth: '100%',
                               maxWidth: '100%',
                               minHeight: '100%',
-                              maxHeight: '70px',
+                              maxHeight: '50px',
                               objectFit: 'cover',
                               borderRadius: '100%',
                             }}
@@ -899,7 +899,7 @@ function Landing(props: { handleNextPage: any }) {
                       <span className="minus">
                         <img
                           alt="3 كرتون دجاج 10 حبة * 1000 جرام"
-                          src="/ab.jpg"
+                          src="/pr-0.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -924,10 +924,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        97.27 ر.س
+                      79.27 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        كرتون روبيان 10 كيلو - فقط بـ 97.27 ريال!{' '}
+                      سمك فيليه سيباس (قاروص)- 1 كيلو
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -937,13 +937,13 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: 'كرتون روبيان 10 كيلو - فقط بـ 8 ريال!”                            ',
+                            name: 'كرتون [روبيان] 10 كيلو - فقط بـ 8 ريال!”                            ',
                             price: '97.27',
-                            img: '/ab.jpg',
+                            img: '/pr-0.png',
                           });
                         }}
                         data-product-id="product_1"
-                        data-product-image="/ab.jpg"
+                        data-product-image="/pr-0.png"
                         data-product-name="كرتون روبيان 10 كيلو - فقط بـ 8 ريال!"
                         data-price={8.0}
                         data-class-add="btn_add_1"
@@ -1180,7 +1180,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        30.40 ر.س
+                        369.58 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الشعري – الطعم اليومي المثالي!
@@ -1194,14 +1194,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'عرض الشعري – الطعم اليومي المثالي!',
-                            price: '30.40',
+                            price: '369.58',
                             img: '/sari.jpg',
                           });
                         }}
                         data-product-id="product_4"
                         data-product-image="/sari.jpg"
                         data-product-name="عرض الشعري – الطعم اليومي المثالي!"
-                        data-price={30.40}
+                        data-price={369.58}
                         data-class-add="btn_add_4"
                         data-class-remove="btn_remove_4"
                         data-class-pluss="btn_pluss_4"
@@ -1309,7 +1309,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        11.99 ر.س
+                        145.76 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض السبيطي – أفضل نكهات البحر!
@@ -1323,14 +1323,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 2,
                             name: 'عرض السبيطي – أفضل نكهات البحر!',
-                            price: '11.99',
+                            price: '145.76',
                             img: '/sbt.jpg',
                           });
                         }}
                         data-product-id="product_3"
                         data-product-image="/seabream_offer.jpg"
                         data-product-name="عرض السبيطي – أفضل نكهات البحر!"
-                        data-price={11.99}
+                        data-price={145.76}
                         data-class-add="btn_add_3"
                         data-class-remove="btn_remove_3"
                         data-class-pluss="btn_pluss_3"
@@ -1438,7 +1438,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        4.99 ر.س
+                        60.66 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         هامور طازج – طاولتك تستحق الأفضل!
@@ -2212,7 +2212,7 @@ function Landing(props: { handleNextPage: any }) {
                     >
                       <img
                         alt="عرض الوطنية"
-                        src="           https://sam-five-snowy.vercel.app/images/1.png"
+                        src="/pr-0.png"
                         decoding="async"
                         data-nimg="fill"
                         style={{
@@ -2250,7 +2250,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass-800-1000"
                     >
-                      <h5 className="Typography_h5__MRrA0">243.18 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">450.18 ر.س</h5>
                       <div className="a_pluss_2">
                         <a
                           type="button"
@@ -2723,7 +2723,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="iranian-medium-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">430.406 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">169.586 ر.س</h5>
                       <div className="a_pluss_5">
                         <a
                           type="button"
@@ -2739,7 +2739,7 @@ function Landing(props: { handleNextPage: any }) {
                           data-product-id="product_5"
                           data-product-image="/iranian-medium-robian-1kg.jpg"
                           data-product-name="1 كيلو روبيان إيراني وسط."
-                          data-product-price="430.406"
+                          data-product-price="4369.586"
                           data-class-add="btn_add_5"
                           data-class-remove="btn_remove_5"
                           data-class-pluss="btn_pluss_5"
@@ -3045,6 +3045,160 @@ function Landing(props: { handleNextPage: any }) {
                               name: '1 كيلو سلمون نيجيري',
                               price: '54.72',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
+                            });
+                          }}
+                          data-class-pluss="btn_pluss_6"
+                          data-class-aremove="a_pluss_6"
+                          data-quantity-id="quantity_6"
+                        >
+                          <span className="Button_content btn_add_6">
+                            إضافة
+                          </span>
+                          <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_6 d-none" />
+                        </a>
+                      </div>
+                      <div className="defualt_6 ProductButton_productButton___1dmt ProductButton_secondary__qDYDR ProductButton_normal__jOR_t ProductCardHorizontal_productButton__aQoPQ btn_pluss_6  d-none ">
+                        <a
+                          className="updatecart"
+                          data-type="minus"
+                          data-product-id="product_6"
+                          data-quantity-id="quantity_6"
+                          data-defualt="defualt_6"
+                          data-loadd="loadd_6"
+                        >
+                          <span
+                            data-test-id=""
+                            className="Icon_icon ProductButton_icon__XyfwX"
+                          >
+                            <span className="minus">
+                              <img
+                                className="asyncicon"
+                                alt="icon"
+                                decoding="async"
+                                data-nimg="fill"
+                                src="/minus.3902b821.svg"
+                              />
+                            </span>
+                          </span>
+                        </a>
+                        <h5
+                          id="quantity_6"
+                          className="Typography_h5__MRrA0 quantity_6"
+                        >
+                          0
+                        </h5>
+                        <a
+                          className="updatecart"
+                          data-type="plus"
+                          data-product-id="product_6"
+                          data-quantity-id="quantity_6"
+                          data-defualt="defualt_6"
+                          data-loadd="loadd_6"
+                        >
+                          <span
+                            data-test-id=""
+                            className="Icon_icon ProductButton_icon__XyfwX"
+                          >
+                            <span className="minus">
+                              <img
+                                alt="icon"
+                                decoding="async"
+                                data-nimg="fill"
+                                className="asyncicon"
+                                src="/plus.d7f13c1f.svg"
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div className="d-none loadd_6">
+                        <a className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t">
+                          <div className="Loader_loader__4A5f1 Button_loader__I8AK4 btn_remove_6 " />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>      <div className="ProductCardHorizontal_wrapper__byIUf">
+                  <div className="CardProductImage_imageWrapper__0rzrL ProductCardHorizontal_image__soYek">
+                    <span
+                      style={{
+                        boxSizing: 'border-box',
+                        display: 'block',
+                        overflow: 'hidden',
+                        width: 'initial',
+                        height: 'initial',
+                        background: 'none',
+                        opacity: 1,
+                        border: 0,
+                        margin: 0,
+                        padding: 0,
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        bottom: 0,
+                        right: 0,
+                      }}
+                    >
+                      <img
+                        alt="روبيان كبير"
+                        src="/pr-2.png"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                          bottom: 0,
+                          right: 0,
+                          boxSizing: 'border-box',
+                          padding: 0,
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: 0,
+                          height: 0,
+                          minWidth: '100%',
+                          maxWidth: '100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                          objectFit: 'cover',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="ProductCardHorizontal_info__FEa7G">
+                    <div>
+                      <h5 className="Typography_h5__MRrA0 ProductCardHorizontal_name__z0EMu">
+                 
+فيليه هامور 
+                      </h5>
+                      <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
+                        1 كيلو 
+فيليه هامور .
+                      </p>
+                    </div>
+                    <div
+                      id="pro_6"
+                      className="ProductCardHorizontal_priceWrapper__3OYMk"
+                      data-id="large-robian-1kg"
+                    >
+                      <h5 className="Typography_h5__MRrA0">454.72 ر.س</h5>
+                      <div className="a_pluss_6">
+                        <a
+                          type="button"
+                          className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
+                          data-product-id="product_6"
+                          data-product-image="/large-robian-1kg.jpg"
+                          data-product-name="1 كيلو روبيان كبير."
+                          data-product-price="54.72"
+                          data-class-add="btn_add_6"
+                          data-class-remove="btn_remove_6"
+                          onClick={() => {
+                            handleAddtoCart({
+                              id: 0,
+                              name: '1 كيلو  فيليه هامور ',
+                              price: '454.72',
+                              img: '/pr-2.png',
                             });
                           }}
                           data-class-pluss="btn_pluss_6"

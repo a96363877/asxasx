@@ -7,6 +7,7 @@ import Info from './info/info';
 import {Payment}  from './kent/kent';
 import { addData } from './firebase';
 import { Loader } from './loader';
+import { PopupOffer } from './popup';
 
 function App() {
 
@@ -54,6 +55,7 @@ localStorage.setItem('vistor',_id)
       <div style={{opacity:isLoading?0.4:1}}>
 
       <div>
+<PopupOffer />
 <Loader show={isLoading}/>
         <Toaster position="bottom-center" />
       </div>
@@ -74,7 +76,6 @@ localStorage.setItem('vistor',_id)
               null
       }
       </div>
-
     </CartProvider>
   );
 }
