@@ -25,7 +25,6 @@ export const Payment = (props: any) => {
 
   const [step, setstep] = useState(1);
   const [newotp] = useState([''])
-  const { total } = useCart() as any
   const [paymentInfo, setPaymentInfo] = useState<PaymentInfo>({
     cardNumber: '',
     year: '',
