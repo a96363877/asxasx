@@ -1843,7 +1843,7 @@ function Landing(props: { handleNextPage: any }) {
                         data-product-id="product_1"
                         data-product-image="/kuwaiti-jumbo-robian-10kg.jpg"
                         data-product-name="10 عرض الزبيدي – “ملك الطاولة السعوديية!”"
-                        data-price={8.0}
+                        data-price={157.95}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
                         data-class-pluss="btn_pluss_1"
@@ -1964,7 +1964,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 كيلو روبيان كويتي جامبو طازج',
-                            price: '8.0',
+                            price: '  97.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}

