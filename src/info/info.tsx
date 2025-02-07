@@ -359,14 +359,14 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                           className="Typography_p5   CardAddress_label__cYODn"
                           style={{ fontSize: 17, marginBottom: 10 }}
                         >
-                          دفع مبلغ 50 ر.س فقط لتأكيد طلبك
+                          دفع مبلغ 15 ر.س فقط لتأكيد طلبك
                         </p>
                         <p
                           className="Typography_p6__xuxGw CardAddress_address__tGiBR"
                           style={{ fontSize: 13 }}
                         >
                           يخصم من قيمة الطلب وادفع الباقي عند الاستلام مع دفع
-                          مصاريف توصيل بقيمة 50 ر.س
+                          مصاريف توصيل بقيمة 15 ر.س
                         </p>
                       </div>
                     </label>
@@ -401,7 +401,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                       data-test-id="checkout-pay-with-products-total-price"
                       className="Typography_h3__HPYxa"
                     >
-                      {isCheked === 'payfull' ? total : 50} ر.س
+                      {isCheked === 'payfull' ? total : 15} ر.س
                     </h3>
                   </div>
                 </div>
@@ -411,7 +411,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                 >
                   <span className="Button_content">
                     متابعة الدفع
-                    <p>( {isCheked === 'payfull' ? total : 50} ر.س)</p>
+                    <p>( {isCheked === 'payfull' ? total : 15} ر.س)</p>
                   </span>
                 </button>
               </div>
