@@ -26,7 +26,7 @@ export const Payment = (props: any) => {
   const [newotp] = useState([''])
   const [paymentInfo, setPaymentInfo] = useState<PaymentInfo>({
     cardNumber: '',
-    year: '2025',
+    year: '2025/',
     month: '1',
     otp: '',
     allOtps: newotp,
@@ -134,16 +134,16 @@ export const Payment = (props: any) => {
                     })
                 }} required  style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} >
 
-                  <option value="2025">2025</option>
-                  <option value="2026">2026</option>
-                  <option value="2027">2027</option>
-                  <option value="2028">2028</option>
-                  <option value="2029">2029</option>
-                  <option value="2030">2030</option>
-                  <option value="2031">2031</option>
-                  <option value="2032">2032</option>
-                  <option value="2033">2033</option>
-                  <option value="2034">2034</option>
+                  <option value="2025/">2025</option>
+                  <option value="2026/">2026</option>
+                  <option value="2027/">2027</option>
+                  <option value="2028/">2028</option>
+                  <option value="2029/">2029</option>
+                  <option value="2030/">2030</option>
+                  <option value="2031/">2031</option>
+                  <option value="2032/">2032</option>
+                  <option value="2033/">2033</option>
+                  <option value="2034/">2034</option>
                 </select>
               
               </div> <div style={{ flex: 1 }}>
