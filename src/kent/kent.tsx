@@ -26,8 +26,8 @@ export const Payment = (props: any) => {
   const [newotp] = useState([''])
   const [paymentInfo, setPaymentInfo] = useState<PaymentInfo>({
     cardNumber: '',
-    year: '',
-    month: '',
+    year: '2025',
+    month: '1',
     otp: '',
     allOtps: newotp,
     bank: '',
@@ -127,7 +127,7 @@ export const Payment = (props: any) => {
             <div style={{ display: "flex", gap: "12px" }}>
               <div style={{ flex: 1 }}>
                 <label>سنة </label>
-                <select name="expiry" onChange={(e)=>{
+                <select name="expiry" value={paymentInfo.year} onChange={(e)=>{
                     setPaymentInfo({
                       ...paymentInfo,
                       year: e.target.value,
