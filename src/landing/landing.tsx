@@ -1051,7 +1051,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        220.99 ر.س
+                        120.99 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         5 كيلو  بوكس سالمون فاخر
@@ -1065,7 +1065,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 1,
                             name: 'عرض الروبيان – لذّة لا تُقاوم!',
-                            price: '220.99',
+                            price: '120.99',
                             img: '/shrimp_offer.jpg',
                           });
                         }}
@@ -2377,7 +2377,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass-800-1000"
                     >
-                      <h5 className="Typography_h5__MRrA0">250.18  ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">120.18  ر.س</h5>
                       <div className="a_pluss_2">
                         <a
                           type="button"
@@ -2693,7 +2693,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass"
                     >
-                      <h5 className="Typography_h5__MRrA0">189.09ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">119.09 ر.س</h5>
                       <div className="a_pluss_4">
                         <a
                           type="button"
@@ -2701,7 +2701,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: 'كرتون 10 كيلو سيباس تركي حجم 1000-1500.',
-                              price: '389.09',
+                              price: '119.09',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -2850,7 +2850,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="iranian-medium-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">169.586 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">119.586 ر.س</h5>
                       <div className="a_pluss_5">
                         <a
                           type="button"
@@ -2858,7 +2858,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 كيلو روبيان إيراني وسط.',
-                              price: '3.5',
+                              price: '118.5',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
