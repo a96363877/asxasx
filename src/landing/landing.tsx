@@ -1950,7 +1950,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        97.270 ر.س
+                        110.270 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         10 كيلو روبيان كويتي جامبو طازج
@@ -1964,7 +1964,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 كيلو روبيان كويتي جامبو طازج',
-                            price: '  97.270',
+                            price: '  110.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
@@ -2206,7 +2206,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        97.270 ر.س
+                        101.270 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         كرتون 10 كيلو روبيان جامبو مقشر
@@ -2218,7 +2218,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 كيلو روبيان كويتي جامبو طازج',
-                            price: '97.270',
+                            price: '101.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           })
                         }
@@ -2535,7 +2535,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="jumbo-robian-10kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">97.270 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">110.270 ر.س</h5>
                       <div className="a_pluss_3">
                         <a
                           type="button"
@@ -2543,7 +2543,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '10 كرتون 10 كيلو روبيان جامبو مقشر',
-                              price: '97.37',
+                              price: '110.270',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -3155,7 +3155,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="large-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">54.72 ر.س</h5>
+                      <h5 className="Typography_h5__MRrA0">110.72 ر.س</h5>
                       <div className="a_pluss_6">
                         <a
                           type="button"
@@ -3170,7 +3170,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 كيلو سلمون نيجيري',
-                              price: '54.72',
+                              price: '110.72',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
