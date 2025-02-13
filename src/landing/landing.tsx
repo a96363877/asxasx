@@ -1307,7 +1307,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        219.58 ر.س
+                        119.58 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الشعري – الطعم اليومي المثالي!
@@ -1321,7 +1321,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'عرض الشعري – الطعم اليومي المثالي!',
-                            price: '219.58',
+                            price: '119.58',
                             img: '/sari.jpg',
                           });
                         }}
