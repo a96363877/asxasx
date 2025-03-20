@@ -924,7 +924,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        79.27 ر.س
+                        109.27ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         سمك فيليه سيباس (قاروص)- 1 كيلو
@@ -938,7 +938,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'كرتون [روبيان] 10 كيلو - فقط بـ 8 ريال!”                            ',
-                            price: '97.27',
+                            price: '109.27',
                             img: '/pr-0.png',
                           });
                         }}
@@ -1179,7 +1179,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        72.83 ر.س
+                        110.21 ر.س
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الروبيان – لذّة لا تُقاوم!
@@ -1565,7 +1565,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        60.66 ر.س
+                        111.21 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         هامور طازج – طاولتك تستحق الأفضل!
@@ -1694,7 +1694,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        60.790 ر.س
+                        111.21  ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         سلمون نرويجي – “طازج ومميز” !{' '}
@@ -1708,7 +1708,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'كرتون روبيان 10 كيلو - فقط بـ 8 ريال!”                            ',
-                            price: '60.790',
+                            price: '111.21 ',
                             img: '/ab.jpg',
                           });
                         }}
@@ -2497,7 +2497,7 @@ function Landing(props: { handleNextPage: any }) {
                     >
                       <img
                         alt="عرض اليوم"
-                        src="           https://sam-five-snowy.vercel.app/images/3.png"
+                        src="https://i.ibb.co/1cm0ZZs/ron.webp"
                         decoding="async"
                         data-nimg="fill"
                         style={{
