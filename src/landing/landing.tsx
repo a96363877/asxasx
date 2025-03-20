@@ -1953,7 +1953,7 @@ function Landing(props: { handleNextPage: any }) {
                         110.270 ر.س
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 كيلو روبيان كويتي جامبو طازج
+                        10 كيلو روبيان سعودي جامبو طازج
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -1963,14 +1963,14 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: '10 كيلو روبيان كويتي جامبو طازج',
+                            name: '10 كيلو روبيان سعودي جامبو طازج',
                             price: '  110.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/kuwaiti-jumbo-robian-10kg.jpg"
-                        data-product-name="10 كيلو روبيان كويتي جامبو طازج"
+                        data-product-name="10 كيلو روبيان سعودي جامبو طازج"
                         data-price={8.0}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
@@ -2217,7 +2217,7 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() =>
                           handleAddtoCart({
                             id: 0,
-                            name: '10 كيلو روبيان كويتي جامبو طازج',
+                            name: '10 كيلو روبيان سعودي جامبو طازج',
                             price: '110.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           })
@@ -2395,7 +2395,7 @@ function Landing(props: { handleNextPage: any }) {
                           onClick={() => {
                             handleAddtoCart({
                               id: 0,
-                              name: '10 كيلو روبيان كويتي جامبو طازج',
+                              name: '10 كيلو روبيان سعودي جامبو طازج',
                               price: '97.37',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
