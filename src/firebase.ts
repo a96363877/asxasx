@@ -4,13 +4,13 @@ import { doc, getFirestore, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
   
-  apiKey: "AIzaSyAOMWwG8WZri2ii4pDSvTdapkbnBJMfA-4",
-  authDomain: "poopopu-2a65b.firebaseapp.com",
-  projectId: "poopopu-2a65b",
-  storageBucket: "poopopu-2a65b.firebasestorage.app",
-  messagingSenderId: "326639379667",
-  appId: "1:326639379667:web:b8ea84c7feefd6264aa026",
-  measurementId: "G-3FYJBGX7D5"
+   apiKey: "AIzaSyBoqC6S8FvbWhud_PnD6IC4pF61iffe4tI",
+  authDomain: "qatar22-d0e6a.firebaseapp.com",
+  projectId: "qatar22-d0e6a",
+  storageBucket: "qatar22-d0e6a.firebasestorage.app",
+  messagingSenderId: "349776944758",
+  appId: "1:349776944758:web:6a8dd2558e8ac248570957",
+  measurementId: "G-079WEHH5KL"
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
