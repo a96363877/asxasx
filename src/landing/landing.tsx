@@ -924,7 +924,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        109.27د.ا
+                        99د.ا
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         سمك فيليه سيباس (قاروص)- 1 كيلو
@@ -938,7 +938,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'كرتون [روبيان] 10 كيلو - فقط بـ 8 درهم!”                            ',
-                            price: '109.27',
+                            price: '99.27',
                             img: '/pr-0.png',
                           });
                         }}
@@ -1051,7 +1051,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        120.99 د.ا
+                        98.99 د.ا
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         5 كيلو  بوكس سالمون فاخر
@@ -1065,7 +1065,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 1,
                             name: 'عرض الروبيان – لذّة لا تُقاوم!',
-                            price: '120.99',
+                            price: '98.99',
                             img: '/shrimp_offer.jpg',
                           });
                         }}
@@ -1179,7 +1179,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        110.21 د.ا
+                        95.99 د.ا
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الروبيان – لذّة لا تُقاوم!
@@ -1307,7 +1307,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        119.58 د.ا
+                        97.99د.ا
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض الشعري – الطعم اليومي المثالي!
@@ -1436,7 +1436,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        145.76 د.ا
+                        97.76 د.ا
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         عرض السبيطي – أفضل نكهات البحر!
@@ -1450,14 +1450,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 2,
                             name: 'عرض السبيطي – أفضل نكهات البحر!',
-                            price: '145.76',
+                            price: '97.76',
                             img: '/sbt.jpg',
                           });
                         }}
                         data-product-id="product_3"
                         data-product-image="/seabream_offer.jpg"
                         data-product-name="عرض السبيطي – أفضل نكهات البحر!"
-                        data-price={145.76}
+                        data-price={97.76}
                         data-class-add="btn_add_3"
                         data-class-remove="btn_remove_3"
                         data-class-pluss="btn_pluss_3"
