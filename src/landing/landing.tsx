@@ -2858,7 +2858,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 كيلو روبيان إيراني وسط.',
-                              price: '118.5',
+                              price: '97.5',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
