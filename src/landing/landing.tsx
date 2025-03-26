@@ -2206,7 +2206,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        110.270 د.ا
+                        98.270 د.ا
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         كرتون 10 كيلو روبيان جامبو مقشر
@@ -2218,7 +2218,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 كيلو روبيان سعودي جامبو طازج',
-                            price: '110.270',
+                            price: '98.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           })
                         }
