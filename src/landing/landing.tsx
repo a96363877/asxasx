@@ -1026,7 +1026,7 @@ function Landing(props: { handleNextPage: any }) {
                       <span className="minus">
                         <img
                           alt="عرض الروبيان – لذّة لا تُقاوم!"
-                          src="/we.png"
+                          src="https://cdn.altibbi.com/cdn/cache/1000x500/image/2020/11/10/56380b8d67c2bcec2e15c13eb881e900.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
