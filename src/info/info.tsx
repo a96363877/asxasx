@@ -110,7 +110,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                             background: '#f2f2f2',
                           }}
                           maxLength={12}
-                          defaultValue={+966}
+                          defaultValue={+971}
                           autoComplete="off"
                           required
                         />
