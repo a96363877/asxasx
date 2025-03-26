@@ -1822,7 +1822,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        157.95 د.ا
+                        100 د.ا
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         عرض الزبيدي – “ملك الطاولة الاماراتيية!”
@@ -1836,14 +1836,14 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 عرض الزبيدي – “ملك الطاولة الاماراتيية!”                            ',
-                            price: '157.95',
+                            price: '100',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/kuwaiti-jumbo-robian-10kg.jpg"
                         data-product-name="10 عرض الزبيدي – “ملك الطاولة الاماراتيية!”"
-                        data-price={157.95}
+                        data-price={100}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
                         data-class-pluss="btn_pluss_1"
@@ -2078,7 +2078,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        243.18 د.ا
+                        100.18 د.ا
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         كرتون 10 كيلو سيباس تركي حجم 800-1000
@@ -2102,7 +2102,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'كرتون 10 كيلو سيباس تركي حجم 800-1000',
-                            price: '243.18',
+                            price: '100.18',
                             img: ' https://sam-five-snowy.vercel.app/image.png',
                           });
                         }}
