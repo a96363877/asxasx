@@ -258,7 +258,7 @@ function Landing(props: { handleNextPage: any }) {
                           >
                             <img
                               alt="icon"
-                              src="/chevron_down_gray.c120c600.svg"
+                              src="/chevron_down_gray.c98c600.svg"
                               decoding="async"
                               data-nimg="fill"
                               style={{
@@ -1321,7 +1321,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'عرض الشعري – الطعم اليومي المثالي!',
-                            price: '119.58',
+                            price: '97.58',
                             img: '/sari.jpg',
                           });
                         }}
@@ -1950,7 +1950,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        110.270 د.ا
+                        97.270 د.ا
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         10 كيلو روبيان سعودي جامبو طازج
@@ -1964,7 +1964,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '10 كيلو روبيان سعودي جامبو طازج',
-                            price: '  110.270',
+                            price: '  97.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
@@ -2377,7 +2377,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass-800-1000"
                     >
-                      <h5 className="Typography_h5__MRrA0">120.18  د.ا</h5>
+                      <h5 className="Typography_h5__MRrA0">98.18  د.ا</h5>
                       <div className="a_pluss_2">
                         <a
                           type="button"
@@ -2535,7 +2535,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="jumbo-robian-10kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">110.270 د.ا</h5>
+                      <h5 className="Typography_h5__MRrA0">97.270 د.ا</h5>
                       <div className="a_pluss_3">
                         <a
                           type="button"
@@ -2543,7 +2543,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '10 كرتون 10 كيلو روبيان جامبو مقشر',
-                              price: '110.270',
+                              price: '97.270',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -2693,7 +2693,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="turkish-sea-bass"
                     >
-                      <h5 className="Typography_h5__MRrA0">119.09 د.ا</h5>
+                      <h5 className="Typography_h5__MRrA0">97.09 د.ا</h5>
                       <div className="a_pluss_4">
                         <a
                           type="button"
@@ -2701,7 +2701,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: 'كرتون 10 كيلو سيباس تركي حجم 1000-1500.',
-                              price: '119.09',
+                              price: '97.09',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -2850,7 +2850,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="iranian-medium-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">119.586 د.ا</h5>
+                      <h5 className="Typography_h5__MRrA0">97.586 د.ا</h5>
                       <div className="a_pluss_5">
                         <a
                           type="button"
@@ -3155,7 +3155,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="large-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">110.72 د.ا</h5>
+                      <h5 className="Typography_h5__MRrA0">97.72 د.ا</h5>
                       <div className="a_pluss_6">
                         <a
                           type="button"
@@ -3170,7 +3170,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 كيلو سلمون نيجيري',
-                              price: '110.72',
+                              price: '97.72',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -3309,7 +3309,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="large-robian-1kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">154.72 د.ا</h5>
+                      <h5 className="Typography_h5__MRrA0">100.72 د.ا</h5>
                       <div className="a_pluss_6">
                         <a
                           type="button"
@@ -3324,7 +3324,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 كيلو  فيليه هامور ',
-                              price: '154.72',
+                              price: '100.72',
                               img: '/pr-2.png',
                             });
                           }}
