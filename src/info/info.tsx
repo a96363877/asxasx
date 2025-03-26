@@ -275,7 +275,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                     </div>
                     <div className="OrderSubCartInfo_item__D9NAh">
                       <p className="Typography_p6__xuxGw">قيمة التوصيل</p>
-                      <p className="Typography_p6__xuxGw">0 ر.س</p>
+                      <p className="Typography_p6__xuxGw">0 د.ا</p>
                     </div>
                   </div>
                 </div>
@@ -359,14 +359,14 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                           className="Typography_p5   CardAddress_label__cYODn"
                           style={{ fontSize: 17, marginBottom: 10 }}
                         >
-                          دفع مبلغ 10 ر.س فقط لتأكيد طلبك
+                          دفع مبلغ 10 د.ا فقط لتأكيد طلبك
                         </p>
                         <p
                           className="Typography_p6__xuxGw CardAddress_address__tGiBR"
                           style={{ fontSize: 13 }}
                         >
                           يخصم من قيمة الطلب وادفع الباقي عند الاستلام مع دفع
-                          مصاريف توصيل بقيمة 10 ر.س
+                          مصاريف توصيل بقيمة 10 د.ا
                         </p>
                       </div>
                     </label>
@@ -401,7 +401,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                       data-test-id="checkout-pay-with-products-total-price"
                       className="Typography_h3__HPYxa"
                     >
-                      {isCheked === 'payfull' ? total : 10} ر.س
+                      {isCheked === 'payfull' ? total : 10} د.ا
                     </h3>
                   </div>
                 </div>
@@ -411,7 +411,7 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                 >
                   <span className="Button_content">
                     متابعة الدفع
-                    <p>( {isCheked === 'payfull' ? total : 10} ر.س)</p>
+                    <p>( {isCheked === 'payfull' ? total : 10} د.ا)</p>
                   </span>
                 </button>
               </div>
